@@ -1,0 +1,44 @@
+.inputSty {
+  width: 280px;
+  background-color: rgba(221, 221, 221, 0.5);
+  height: 49px;
+  padding: 8px 15px 8px 50px;
+  border-radius: 30px;
+  color: #666060;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  border: none;
+}
+.inputSty::placeholder {
+  color: #666060;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+}
+.inputSty:focus {
+  outline: none;
+}
+.formIcon {
+  position: relative;
+  margin: 20px 0;
+}
+.labelSt {
+  position: absolute;
+  left: 15px;
+  top: 23px;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 10px;
+  color: #666060;
+}
+.labelSt img {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 400px) {
+  .inputSty {
+    width: 300px;
+  }
+}

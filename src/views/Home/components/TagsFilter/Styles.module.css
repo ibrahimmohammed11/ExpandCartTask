@@ -1,0 +1,39 @@
+.tagsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+  margin-bottom: 50px;
+}
+.tagsSection::-webkit-scrollbar {
+  height: 6px;
+}
+.tagsSection::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.tagStyle {
+  width: 300px !important;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.tagStyle img {
+  width: 180px;
+  height: 120px;
+  border-radius: 12px;
+}
+.tagStyle span {
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+}
+
+.active {
+  border-bottom: 5px solid gold;
+}
