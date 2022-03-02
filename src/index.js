@@ -5,11 +5,11 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
-
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
